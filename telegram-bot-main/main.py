@@ -7,7 +7,7 @@ from keep_alive import keep_alive
 keep_alive()
 
 # Replace with your Telegram bot token
-BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'
+BOT_TOKEN = '7388257700:AAGjh0B_cCYKX1k_VOCC92dNWhd8dsRVFgQ'
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
 
