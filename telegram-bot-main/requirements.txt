@@ -1,4 +1,4 @@
-aiogram==2.23.1
-requests==2.28.1
-json==2.0.9
+aiogram
+requests
+json
 flask
