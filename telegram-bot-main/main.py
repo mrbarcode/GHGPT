@@ -1,16 +1,23 @@
-import requests
+import os
 import json
-import telegram
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+import requests
+from aiogram import Bot, Dispatcher, types
+from aiogram.utils import executor
+from keep_alive import keep_alive
+keep_alive()
 
 # Replace with your Telegram bot token
 BOT_TOKEN = '7388257700:AAGjh0B_cCYKX1k_VOCC92dNWhd8dsRVFgQ'
+bot = Bot(token=BOT_TOKEN)
+dp = Dispatcher(bot)
 
-def start(update, context):
-    context.bot.send_message(chat_id=update.effective_chat.id, text="Hello! I'm an AI assistant. How can I help you today?")
+@dp.message_handler(commands=['start'])
+async def start(message: types.Message):
+    await message.answer("Hello! I'm an AI assistant. How can I help you today?")
 
-def chat(update, context):
-    user_input = update.message.text
+@dp.message_handler(content_types=types.ContentType.TEXT)
+async def chat(message: types.Message):
+    user_input = message.text
     url = "https://darkai.foundation/chat"
     payload = json.dumps({"query": user_input, "history": [], "model": "llama-3-70b"})
 
@@ -38,22 +45,9 @@ def chat(update, context):
 
     start_index = response.text.index('"message": "') + 12
     end_index = response.text.index('"}]}', start_index)
-    message = response.text[start_index:end_index].replace("\\n", "\n")
+    message_text = response.text[start_index:end_index].replace("\\n", "\n")
 
-    context.bot.send_message(chat_id=update.effective_chat.id, text=message)
-
-def main():
-    updater = Updater(BOT_TOKEN, use_context=True)
-    dispatcher = updater.dispatcher
-
-    start_handler = CommandHandler('start', start)
-    chat_handler = MessageHandler(Filters.text & ~Filters.command, chat)
-
-    dispatcher.add_handler(start_handler)
-    dispatcher.add_handler(chat_handler)
-
-    updater.start_polling()
-    updater.idle()
+    await message.answer(message_text)
 
 if __name__ == '__main__':
-    main()
+    executor.start_polling(dp, skip_updates=True)
