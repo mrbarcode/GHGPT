@@ -36,19 +36,19 @@
   "combolists": [
     {
       "name": "100k HQ",
-      "img": "https://github.com/openbullet/openbullet/blob/master/OpenBullet/Resources/BBIcon.png",
+      "img": "https://raw.githubusercontent.com/openbullet/openbullet/master/OpenBullet/Resources/BBIcon.png",
       "about": "100k HQ combo",
       "download": "https://google.com"
     },
     {
       "name": "50k Netflix",
-      "img": "https://github.com/openbullet/openbullet/blob/master/OpenBullet/Resources/BBIcon.png",
+      "img": "https://raw.githubusercontent.com/openbullet/openbullet/master/OpenBullet/Resources/BBIcon.png",
       "about": "50k HQ Netflix combo",
       "download": "https://google.com"
     },
     {
       "name": "200k Paypal",
-      "img": "https://github.com/openbullet/openbullet/blob/master/OpenBullet/Resources/BBIcon.png",
+      "img": "https://raw.githubusercontent.com/openbullet/openbullet/master/OpenBullet/Resources/BBIcon.png",
       "about": "200k Paypal combo",
       "download": "https://youtube.com"
     }
