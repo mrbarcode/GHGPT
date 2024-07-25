@@ -1,0 +1,44 @@
+    Configs: [
+      '{{repeat(3)}}',
+      {
+        name: 'netflix',   img:'https://images.ctfassets.net/y2ske730sjqp/5QQ9SVIdc1tmkqrtFnG9U1/de758bba0f65dcc1c6bc1f31f161003d/BrandAssets_Logos_02-NSymbol.jpg?w=940',
+         about: 'this netflix config',
+        download: 'https://google.com'
+      },
+      {
+        name: 'youtube',   
+        img:'https://images.ctfassets.net/an',
+        about: 'this youtube config',
+        download: 'https://youtube.com'
+      }
+    ],
+       plugins: [
+      '{{repeat(3)}}',
+      {
+        name: 'config creator',   
+        img:'https://images.com',
+         about: 'this plugin',
+        download: 'https://gocogle.com'
+      },
+      {
+        name: 'test plugin',   
+        img:'https://plugin.ctfassets.net/an',
+        about: 'this plugin2',
+        download: 'https://c.com'
+      }
+    ],
+       combolists: [
+      '{{repeat(3)}}',
+      {
+        name: '100k',   
+        img:'https://images.com',
+         about: '100 oo',
+        download: 'https://fgg.com'
+      },
+      {
+        name: '200k',   
+        img:'https://plugin.ctfassets.net/an',
+        about: '200k google',
+        download: 'https://df.com'
+      }
+    ]
