@@ -1,17 +1,23 @@
 {
   "Configs": [
     {
-      "name": "netflix",
-      "img": "https://images.ctfassets.net/y2ske730sjqp/5QQ9SVIdc1tmkqrtFnG9U1/de758bba0f65dcc1c6bc1f31f161003d/BrandAssets_Logos_02-NSymbol.jpg?w=940",
-      "about": "this netflix config",
+      "name": "IPVANISH VPN",
+      "img": "https://taphoammo.net/img/ipvanish-vpn-co-tich-hop-proxy-bao-hanh-24-7_811391.png",
+      "about": "🔥IPVANISH VPN Config with fast cpm🔥",
       "download": "https://google.com"
     },
     {
-      "name": "youtube",
-      "img": "https://images.ctfassets.net/y2ske730sjqp/5QQ9SVIdc1tmkqrtFnG9U1/de758bba0f65dcc1c6bc1f31f161003d/BrandAssets_Logos_02-NSymbol.jpg?w=940",
-      "about": "this youtube config",
+      "name": "Nord VPN",
+      "img": "https://pbs.twimg.com/profile_images/1618629073969750018/_J6Qi3VW_400x400.jpg",
+      "about": "🔥Nord VPN Config Proxyless🔥",
       "download": "https://youtube.com"
-    }
+    },
+     {
+      "name": "PAYPAL",
+      "img": "https://cdn.pixabay.com/photo/2018/05/03/21/49/paypal-3372585_960_720.png",
+      "about": "🔥PAYPAL Config bypassed🔥",
+      "download": "https://youtube.com"
+    },
   ],
   "plugins": [
     {
