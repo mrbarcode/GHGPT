@@ -3,7 +3,7 @@
     {
       "name": "IPVANISH",
       "img": "https://taphoammo.net/img/ipvanish-vpn-co-tich-hop-proxy-bao-hanh-24-7_811391.png",
-      "about": "🔥IPVANISH VPN Config with fast cpm🔥",
+      "about": "🔥IPVANISH Config with fast cpm🔥",
       "download": "https://google.com"
     },
     {
@@ -35,15 +35,21 @@
   ],
   "combolists": [
     {
-      "name": "100k",
-      "img": "https://images.ctfassets.net/y2ske730sjqp/5QQ9SVIdc1tmkqrtFnG9U1/de758bba0f65dcc1c6bc1f31f161003d/BrandAssets_Logos_02-NSymbol.jpg?w=940",
-      "about": "this 100k combo",
+      "name": "100k HQ",
+      "img": "https://github.com/openbullet/openbullet/blob/master/OpenBullet/Resources/BBIcon.png",
+      "about": "100k HQ combo",
       "download": "https://google.com"
     },
     {
-      "name": "200k",
-      "img": "https://images.ctfassets.net/y2ske730sjqp/5QQ9SVIdc1tmkqrtFnG9U1/de758bba0f65dcc1c6bc1f31f161003d/BrandAssets_Logos_02-NSymbol.jpg?w=940",
-      "about": "this 200k combo",
+      "name": "50k Netflix",
+      "img": "https://github.com/openbullet/openbullet/blob/master/OpenBullet/Resources/BBIcon.png",
+      "about": "50k HQ Netflix combo",
+      "download": "https://google.com"
+    },
+    {
+      "name": "200k Paypal",
+      "img": "https://github.com/openbullet/openbullet/blob/master/OpenBullet/Resources/BBIcon.png",
+      "about": "200k Paypal combo",
       "download": "https://youtube.com"
     }
   ]
